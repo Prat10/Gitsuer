@@ -83,3 +83,12 @@ input:hover {
 .user a {
   color: #fe52ad;
 }
+
+@media screen and (max-width:769px) {
+  .search-form {
+    width: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
